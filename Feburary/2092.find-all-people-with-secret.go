@@ -40,7 +40,7 @@ type Meet struct {
 	time   int
 }
 
-func findAllPeople(n int, meetings [][]int, firstPerson int) []int {
+func x1(n int, meetings [][]int, firstPerson int) []int {
 	graph := make([][]Meet, n)
 	for _, meeting := range meetings {
 		graph[meeting[0]] = append(graph[meeting[0]], Meet{meeting[1], meeting[2]})
