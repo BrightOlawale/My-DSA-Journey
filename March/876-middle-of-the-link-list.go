@@ -5,6 +5,13 @@
  *     Next *ListNode
  * }
  */
+
+package march
+
+type ListNode struct {
+    Val int
+    Next *ListNode
+}
  func middleNode(head *ListNode) *ListNode {
     if head == nil {
         return head
