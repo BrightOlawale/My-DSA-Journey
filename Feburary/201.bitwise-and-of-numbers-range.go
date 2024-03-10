@@ -19,7 +19,7 @@ func rangeBitwiseAnd(left, right int) int {
 }
 
 
-func rangeBitwiseAnd(left, right int) int {
+func rangeBitwiseAndII(left, right int) int {
     for left < right {
         right &= (right - 1) // Clear the rightmost set bit of right
     }

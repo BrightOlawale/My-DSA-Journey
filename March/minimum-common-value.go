@@ -1,3 +1,5 @@
+package march
+
 func getCommon(nums1 []int, nums2 []int) int {
     var l, r int
     for l < len(nums1) && r < len(nums2) {
