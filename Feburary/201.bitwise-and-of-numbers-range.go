@@ -7,17 +7,17 @@ package feburary
  */
 
 // @lc code=start
-func rangeBitwiseAnd(left int, right int) int {
-	func rangeBitwiseAnd(left, right int) int {
-		shift := 0
-		for left < right {
-			left >>= 1 // Right shift left
-			right >>= 1 // Right shift right
-			shift++
-		}
-		return left << shift
+
+func rangeBitwiseAnd(left, right int) int {
+	shift := 0
+	for left < right {
+		left >>= 1 // Right shift left
+		right >>= 1 // Right shift right
+		shift++
 	}
+	return left << shift
 }
+
 
 func rangeBitwiseAnd(left, right int) int {
     for left < right {

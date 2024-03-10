@@ -20,7 +20,7 @@ func isPowerOfTwo(n int) bool {
 }
 
 // OR SOLVE RECURSIVELY:
-func isPowerOfTwo(n int) bool {
+func isPowerOfTwoII(n int) bool {
     if n == 1 {
         return true
     }

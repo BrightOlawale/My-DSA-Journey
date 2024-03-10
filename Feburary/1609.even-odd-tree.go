@@ -15,6 +15,13 @@ package feburary
  *     Right *TreeNode
  * }
  */
+
+// TreeNode represents a node in a binary tree
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
  func isEvenOddTree(root *TreeNode) bool {
 	if root == nil {
 		return false
